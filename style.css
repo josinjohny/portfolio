@@ -167,6 +167,51 @@
   font-size: 2.5rem; /
 }
 
+/* Projects Section */
+#projects {
+  background-color: black;
+  color: white;
+}
+
+#projects h2 {
+  color: #f8f9fa;
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+
+.card {
+  border: none;
+}
+
+.card-img-top {
+  border-radius: 5px;
+}
+
+.card-title {
+  font-size: 1.4rem;
+  margin-bottom: 15px;
+}
+
+.card-text {
+  font-size: 1rem;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+  .card-body {
+    text-align: center; /* Center text for mobile screens */
+  }
+}
+
+
 @media (max-width: 768px) {
   .social-icons i {
     font-size: 2.5rem; /* Adjust icon size for mobile */
